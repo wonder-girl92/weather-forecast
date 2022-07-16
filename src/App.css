@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Main {
+  background-color: #e9e8e8;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.MainPage {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  background-color: #e9e8e8;
+}
+
+.MainPageLink {
+  margin: auto;
+  display: block;
+  width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.LinkIcon {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.LinkIcon h1 {
+  margin: 0;
+  width: 200px !important;
+  background-color: #e9e8e8;
+  border-radius: 20px;
+  color: #3d6695;
+  font-size: medium;
+}
+
+/* Input start */
+
+.InputWrap {
+  display: flex;
+  height: 50px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Input {
+  width: 80%;
+  padding: 4px 8px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #8dd4d8;
+  font-size: 18px;
+  color: #313131;
+  border: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+.Button {
+  width: 20%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-left-style: dotted;
+  border-color: #3d6695;
+  border-width: 0 0 0 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #313131;
+  background-color: #ededed;
+}
+
+/* Input finish */
+
+/*  Card start */
+
+.CardList {
+  display: flex;
+}
+
+.Select {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 4px 8px;
+}
+
+.Card {
+  width: 200px;
+  height: fit-content;
+  padding: 18px 12px;
+  border-radius: 12px;
+  background-color: #8dd4d8;
+  font-size: 14px;
+  color: #313131;
+  margin-left: 20px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  display: block;
+}
+
+.Card:first-child {
+  margin-left: 0;
+}
+
+.ActionButtonWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ActionButton {
+  background: #ededed;
+  border: #3d6695;
+  cursor: pointer;
+}
+
+.ActionButtonEdit {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right-style: dotted;
+}
+
+.ActionButtonDelete {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.MainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Icon {
+  height: 75px;
+  background-color: rgba(202, 235, 235, 0.99);
+  box-shadow: 0 0 17px 15px #8dd4d8 inset;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.Description {
+  margin-top: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Temperature {
+  margin-top: 12px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.Information {
+  margin-top: 16px;
+}
+
+.Information > div {
+  margin-top: 4px;
+}
+/* Card finish */
+
+/* SingleCity start */
+
+.SingleCityWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SingleCityWrap .Card {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.DailyCards {
+  margin-top: 10px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.SingleCityWrap .Select {
+  margin-bottom: 0;
+}
+
+.DailyCard {
+  width: 160px;
+  height: 160px;
+  background-color: #8dd4d8;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 8px;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  word-wrap: break-word;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DailyCard .Icon {
+  width: 75px;
+}
+
+.GoBack {
+  color: #3d6695;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.GoBack:hover {
+  text-decoration: underline;
+}
+
+/* SingleCity finish */
