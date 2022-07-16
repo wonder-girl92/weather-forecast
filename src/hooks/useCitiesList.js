@@ -4,7 +4,7 @@ import { removeElementFromArray } from '../helpers';
 const initialState = {
   inputValue: '',
   editingCity: '',
-  citiesList: JSON.parse(localStorage.getItem('citiesList')) || []
+  citiesList: JSON.parse(localStorage.getItem('citiesList')) || ['Moscow', 'Grozny']
 };
 
 const reducer = (state, action) => {
