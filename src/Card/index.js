@@ -89,12 +89,10 @@ const CardNoMemo = ({ city }) => {
     <div className='Card'>
       <div className='ActionButtonWrap'>
         <button className='ActionButton ActionButtonEdit' onClick={handleOnEdit}>
-          {' '}
-          edit{' '}
+          edit
         </button>
         <button className='ActionButton ActionButtonDelete' onClick={handleOnDelete}>
-          {' '}
-          ✖{' '}
+          ✖
         </button>
       </div>
       <div className='MainInfo'>
